@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="cart">
+        <li class="menu-nav "><i class="fas fa-shopping-bag " onclick="showCartping()"></i><span class="badge rounded-pill badge-notification bg-dark " id="notification">0</span>
+
+
+            <li>
+                <a class="nav-link" href="Webstore.html">Tiếp tục mua hàng</a>
+            </li>
+
+            <div id="showCart" class="container">
+                <!-- <i class="fas fa-times " onclick="hideCartping()() "></i> -->
+                <H1 id="divcart-content">Giỏ hàng</H1>
+                <br>
+                <hr>
+                <br>
+
+                <table border="1" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <th>ID</th>
+                        <th>Product name</th>
+                        <th>Image</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Tatol</th>
+                        <th>add</th>
+                        <th>update</th>
+                        <th>delete</th>
+
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>tranh sơn dầu</td>
+                        <td>
+                            <img src="https://bantranh.com/wp-content/uploads/2021/10/tranh-phong-canh-dong-que.jpg" style="width:100px">
+                        </td>
+                        <td>3</td>
+                        <td>1000000</td>
+                        <td>3000000</td>
+                        <th>
+                            <li><i class="fas fa-plus-circle"></i></li>
+                        </th>
+                        <th>
+                            <li><i class="fas fa-edit"></i></li>
+                        </th>
+                        <th>
+                            <li><i class="fas fa-trash-alt"></i></li>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>tranh sơn dầu</td>
+                        <td>
+                            <img src="https://bantranh.com/wp-content/uploads/2019/02/chieu-ven-song-300x302.jpg" style="width:100px">
+                        </td>
+                        <td>3</td>
+                        <td>1000000</td>
+                        <td>3000000</td>
+                        <th>
+                            <li><i class="fas fa-plus-circle"></i></li>
+                        </th>
+                        <th>
+                            <li><i class="fas fa-edit"></i></li>
+                        </th>
+                        <th>
+                            <li><i class="fas fa-trash-alt"></i></li>
+                        </th>
+                    </tr>
+                </table>
+
+
+                <br><br>
+
+                <table>
+                    <tr>
+                        <td><label for="">Alltotal</label> <input class="ml-5" type="text" id="alltotal"> </td>
+                    </tr>
+                </table>
+                <br>
+                <!-- <button class="btn bg-danger" onclick="backHome()"> Tiếp tục xem giỏ hàng
+                </button> -->
+
+
+                <button class="btn bg-danger" onclick="moveiforcustomer()"> <li>
+                    <a class="nav-link" href="payment.html">Thanh toán </a>
+                </li></button>
+            </div>
+        </li>
+
+
+    </div>
+</body>
+
+</html>
